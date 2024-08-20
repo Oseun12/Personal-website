@@ -2,7 +2,9 @@ import { useEffect } from 'react';
 
 const Counters = () => {
   // Function to increment numbers
-  const animateCounter = (element, target) => {
+  const animateCounter = (element: HTMLElement, target: string | null) => {
+    if (!target) return;
+    
     let start = 0;
     const end = parseInt(target);
     const duration = 2000; // 2 seconds
@@ -10,7 +12,7 @@ const Counters = () => {
 
     const timer = setInterval(() => {
       start += 1;
-      element.innerText = start;
+      element.innerText = start.toString();
       if (start === end) {
         clearInterval(timer);
       }
@@ -18,16 +20,16 @@ const Counters = () => {
   };
 
   // Function to check if the element is in the viewport
-  const isInViewport = (element) => {
+  const isInViewport = (element: HTMLElement): boolean => {
     const rect = element.getBoundingClientRect();
     return rect.top >= 0 && rect.bottom <= window.innerHeight;
   };
 
   useEffect(() => {
     const handleScroll = () => {
-      const counters = document.querySelectorAll('.counter');
+      const counters = document.querySelectorAll<HTMLElement>('.counter');
       counters.forEach(counter => {
-        if (isInViewport(counter) && counter.innerText == '0') {
+        if (isInViewport(counter) && counter.innerText === '0') {
           animateCounter(counter, counter.getAttribute('data-target'));
         }
       });
