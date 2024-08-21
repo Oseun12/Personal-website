@@ -34,10 +34,11 @@ const PageResume = () => {
 
                     <div className="p-6 bg-slate-100 rounded-3xl">
                     <p className="flex flex-col mt-5">
-                        <span className="text-2xl font-bold mb-5">Freelancer</span>
+                        <span className="text-2xl font-bold mb-5">Backend Developer Intern</span>
+                        <span className="font-bold text-slate-500 italic">FlexiSAF</span>
                     </p>
                     <button className="px-3 py-2 mt-5 text-lg bg-yellow-500 text-white font-semibold rounded-full border border-yellow-900 hover:text-white hover:bg-yellow-700 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2">
-                        June 2024 - Present
+                        July 2024 - Present
                     </button>
                     </div>
 
