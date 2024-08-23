@@ -50,7 +50,7 @@ export default function Home() {
             </p>
 
               
-              <div className="md:w-1/2 text-left mt-10">
+              <div className="md:w-1/2 text-left mt-10 py-5 px-5">
                 <h2 className="mb-2"><strong>Name:</strong> Mary Oluwaseun Salau</h2>
                 <h2 className="mb-2"><strong>Email:</strong> marrizzsalau7@gmail.com</h2>
                 <h2 className="mb-2"><strong>Location:</strong> Ogun state, Nigeria</h2>
