@@ -42,7 +42,7 @@ const PageSocial = () => {
         </a>
         
 
-        <a href="https://www.facebook.com/your-profile" target="_blank" rel="noopener noreferrer">
+        <a href="https://web.facebook.com/joshua.chealsea/" target="_blank" rel="noopener noreferrer">
             <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
