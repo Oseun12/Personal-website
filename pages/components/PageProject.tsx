@@ -24,6 +24,8 @@ const PageProject = () => {
           />
           <div className="absolute rounded-2xl inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center">
             <h2 className="font-bold text-white text-2xl">Baruch Clothing</h2>
+            <span className="text-white font-bold text-yellow-400">FRONTEND PROJECT</span>
+
             <span className="text-white">HTML | CSS | JAVASCRIPT</span>
           </div>
         </a>
@@ -40,7 +42,7 @@ const PageProject = () => {
           />
           <div className="absolute rounded-2xl inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center">
             <h2 className="font-bold text-white text-2xl">Employee Dashboard</h2>
-            <span className="text-white">NextJs | TailwindCSS | MongoDB</span>
+            <span className="text-white">NextJs | TailwindCSS | MongoDB | Typescript</span>
           </div>
         </a>
       </div>
@@ -56,12 +58,28 @@ const PageProject = () => {
           />
           <div className="absolute rounded-2xl inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center">
             <h2 className="font-bold text-white text-2xl">Todo Application</h2>
-            <span className="text-white">NextJs | MongoDB | TailwindCSS</span>
+            <span className="text-white">NextJs | Prisma | TailwindCSS | Typescript</span>
           </div>
         </a>
       </div>
 
+      <div className="relative mb-10">
+        <a href="https://oluseun.hashnode.dev/mini-banking-application-with-nodejs-typescript-and-postgresql" className="block">
+          <Image
+            src="/images/bank.png"
+            alt="Baruch Clothing"
+            className="w-full h-full object-cover rounded-2xl"
+            width={500} 
+            height={300}
+          />
+          <div className="absolute rounded-2xl inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center">
+            <h2 className="font-bold text-white text-2xl">Todo Application</h2>
+            <span className="text-white font-bold text-green-400">BACKEND  PROJECT</span>
+            <span className="text-white">Node.js | PostgreSQL | Express.js | Typescript</span>
 
+          </div>
+        </a>
+      </div>
 
     </div>
   )
