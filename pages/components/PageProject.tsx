@@ -24,7 +24,7 @@ const PageProject = () => {
           />
           <div className="absolute rounded-2xl inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center">
             <h2 className="font-bold text-white text-2xl">Baruch Clothing</h2>
-            <span className="text-white font-bold text-yellow-400">FRONTEND PROJECT</span>
+            <span className="font-bold text-yellow-400">FRONTEND PROJECT</span>
 
             <span className="text-white">HTML | CSS | JAVASCRIPT</span>
           </div>
@@ -73,8 +73,8 @@ const PageProject = () => {
             height={300}
           />
           <div className="absolute rounded-2xl inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center">
-            <h2 className="font-bold text-white text-2xl">Todo Application</h2>
-            <span className="text-white font-bold text-green-400">BACKEND  PROJECT</span>
+            <h2 className="font-bold text-white text-2xl">Mini Bank Application</h2>
+            <span className="font-bold text-green-400">BACKEND  PROJECT</span>
             <span className="text-white">Node.js | PostgreSQL | Express.js | Typescript</span>
 
           </div>
