@@ -1,6 +1,6 @@
 const PageResume = () => {
     return (
-        <div className="relative text-center mt-10">
+        <div className="relative text-center mt-10" id="resume">
             <h1 className="font-bold text-4xl text-gray-400 relative inline-block">
             My Experience
                 <span

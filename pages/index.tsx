@@ -28,10 +28,10 @@ export default function Home() {
             <h4 className="text-white font-bold text-xl mb-2">Welcome,</h4>
             <h2 className="text-white font-bold text-xl md:text-4xl mb-4">I am a Full-stack Developer</h2>
             <h6 className="text-white font-bold text-lg">based in Ogun, Nigeria</h6>
-            <button  onClick={() => window.open('/Salau_Seun_Mary_CV.pdf', '_blank')} className="px-6 py-3 mt-5 text-2xl text-white font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-gray-500 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2">Hire Me</button>
+            <button  onClick={() => window.open('/Salau_Mary_TechCV(3).pdf', '_blank')} className="px-6 py-3 mt-5 text-2xl text-white font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-gray-500 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2">Hire Me</button>
           </div>
 
-          <div className="bg-slate-100 mt-28 w-full">
+          <div className="bg-slate-100 mt-28 w-full" id="about">
             <h1
               className="relative text-5xl text-gray-400 font-serif font-bold text-center mt-16"
               style={{ textUnderlineOffset: '8px', textDecorationColor: 'green' }}
@@ -54,7 +54,7 @@ export default function Home() {
                 <h2 className="mb-2"><strong>Name:</strong> Mary Oluwaseun Salau</h2>
                 <h2 className="mb-2"><strong>Email:</strong> marrizzsalau7@gmail.com</h2>
                 <h2 className="mb-2"><strong>Location:</strong> Ogun state, Nigeria</h2>
-                <button onClick={() => window.open('/Salau_Seun_Mary_CV.pdf', '_blank')} className="px-3 py-2 mt-5 text-xl bg-yellow-500 text-white font-semibold rounded-full border border-yellow-900 hover:text-white hover:bg-yellow-700 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2">
+                <button onClick={() => window.open('/Salau_Mary_TechCV(3).pdf', '_blank')} className="px-3 py-2 mt-5 text-xl bg-yellow-500 text-white font-semibold rounded-full border border-yellow-900 hover:text-white hover:bg-yellow-700 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2">
                   Download CV
                 </button>
               </div>

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const PageProject = () => {
   return (
-    <div>
+    <div id="projects">
       <div className="text-center">
       <h1 className="font-bold text-4xl text-gray-400 relative inline-block mt-10 mb-10 ">
         My Projects
