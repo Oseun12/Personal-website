@@ -24,9 +24,8 @@ const PageProject = () => {
             />
             <div className="absolute rounded-2xl inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center">
               <h2 className="font-bold text-white text-2xl">Expense Management System</h2>
-              <span className="font-bold text-yellow-400">FULLSTACK PROJECT</span>
 
-              <span className="text-white">NEXTJS | TAILWINDCSS | DRIZZLE | JAVASCRIPT</span>
+              <span className="text-white">NexTJs | TailwindCSS | Drizzle | JavaScript</span>
             </div>
           </a>
         </div>
@@ -58,7 +57,6 @@ const PageProject = () => {
             />
             <div className="absolute rounded-2xl inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center">
               <h2 className="font-bold text-white text-2xl">Baruch Clothing</h2>
-              <span className="font-bold text-yellow-400">FRONTEND PROJECT</span>
 
               <span className="text-white">HTML | CSS | JAVASCRIPT</span>
             </div>
