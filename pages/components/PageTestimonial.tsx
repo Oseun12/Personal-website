@@ -22,7 +22,7 @@ const PageTestimonial = () => {
                 className="w-32 h-32 rounded-full object-cover"
               />
               <div>
-                <h3 className="text-lg font-semibold mb-5">Shina Olushola</h3>
+                <h3 className="text-2xl font-bold mb-5">Shina Olushola</h3>
                 <h3 className="text-lg font-semibold mb-5">Backend Developer</h3>
                 <p className="text-gray-600 mb-10">
                 Mary has proven to be an excellent communicator, and skilled developer. She has consistently delivered and has been an invaluable asset to our team.                </p>
@@ -38,11 +38,12 @@ const PageTestimonial = () => {
               <img
                 src="/images/unclebigbay.jpeg"
                 alt="Referee Name"
-                className="w-16 h-16 rounded-full object-cover"
+                className="w-32 h-32 rounded-full object-cover"
               />
               <div>
-                <h3 className="text-lg font-semibold">Ayodele Samuel</h3>
-                <p className="text-gray-600">
+                <h3 className="text-2xl font-bold mb-5">Ayodele Samuel</h3>
+                <h3 className="text-lg font-semibold mb-5">Senior Frontend Engineer</h3>
+                <p className="text-gray-600 mb-10"> I can testify that Mary Salau is an outstanding person, constantly delivering high-quality work and showing exceptional dedication. 
                 </p>
                 <div className="text-yellow-500">★★★★★</div>
               </div>
@@ -59,7 +60,7 @@ const PageTestimonial = () => {
                 className="w-16 h-16 rounded-full object-cover"
               />
               <div>
-                <h3 className="text-lg font-semibold">Deven Chopra</h3>
+                <h3 className="text-2xl font-bold">Deven Chopra</h3>
                 <h3 className="text-lg font-semibold">Software Engineering Manager(Prodigy Info Tech)</h3>
                 <p className="text-gray-600">
                     I am writing this letter to highly recommend Mary Salau  for
