@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const PageTestimonial = () => {
   return (
@@ -16,10 +17,10 @@ const PageTestimonial = () => {
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <div className="space-y-4">
             <div className="flex items-center space-x-4">
-              <img
+              <Image
                 src="/images/man.jpg"
                 alt="Referee Name"
-                className="w-32 h-32 rounded-full object-cover"
+                width={100} height={100}
               />
               <div>
                 <h3 className="text-2xl font-bold mb-5">Shina Olushola</h3>
@@ -35,10 +36,12 @@ const PageTestimonial = () => {
         <div className="bg-white p-6 rounded-lg shadow-lg"> {/* Add h-64 here */}
           <div className="space-y-4">
             <div className="flex items-center space-x-4">
-              <img
+              <Image
                 src="/images/unclebigbay.jpeg"
                 alt="Referee Name"
-                className="w-32 h-32 rounded-full object-cover"
+                width={100} 
+                height={100}
+                className='rounded-full'
               />
               <div>
                 <h3 className="text-2xl font-bold mb-5">Ayodele Samuel</h3>
@@ -54,10 +57,10 @@ const PageTestimonial = () => {
         <div className="bg-white p-6 rounded-lg shadow-lg ">
           <div className="space-y-4">
             <div className="flex items-center space-x-4">
-              <img
+              <Image
                 src="/images/1680453080726.jpeg"
                 alt="Referee Name"
-                className="w-16 h-16 rounded-full object-cover"
+                width={100} height={100}
               />
               <div>
                 <h3 className="text-2xl font-bold">Deven Chopra</h3>
