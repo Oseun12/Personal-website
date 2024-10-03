@@ -18,18 +18,17 @@ export default function Home() {
         <PageNav />
 
         <div className="text-black flex flex-col items-center ">
-        
-          <img
-            src="/images/f6354df5-0280-413f-a6f3-8299e4d549d8.JPG"
-            alt="profile-image"
-            className="rounded-3xl md:w-11/12 md:h-96  mb-4"
-          />
-          <div className="flex flex-col justify-center items-center rounded-3xl -mt-80">
-            <h4 className="text-white font-bold text-xl mb-2">Welcome,</h4>
-            <h2 className="text-white font-bold text-xl md:text-4xl mb-4">I am a Full-stack Developer</h2>
-            <h6 className="text-white font-bold text-lg">based in Ogun, Nigeria</h6>
-            <button  onClick={() => window.open('/Tech CV(1).pdf', '_blank')} className="px-6 py-3 mt-5 text-2xl text-white font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-gray-500 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2">Hire Me</button>
-          </div>
+            <img
+              src="/images/f6354df5-0280-413f-a6f3-8299e4d549d8.JPG"
+              alt="profile-image"
+              className="rounded-3xl md:w-11/12 md:h-[700px]  mb-4"
+            />
+            <div className="flex flex-col justify-center items-center rounded-3xl -mt-80">
+              <h4 className="text-white font-bold text-2xl mb-2 md:text-3xl">Welcome,</h4>
+              <h2 className="text-white font-bold text-3xl md:text-6xl mb-4">I am a Full-stack Developer</h2>
+              <h6 className="text-white font-bold text-lg md:text-3xl">based in Ogun, Nigeria</h6>
+              <button  onClick={() => window.open('/Tech CV(4).pdf', '_blank')} className="px-6 py-3 mt-5 text-2xl text-white font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-gray-500 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2">Hire Me</button>
+            </div>
 
           <div className="bg-slate-100 mt-28 w-full" id="about">
             <h1
@@ -54,7 +53,7 @@ export default function Home() {
                 <h2 className="mb-2"><strong>Name:</strong> Mary Oluwaseun Salau</h2>
                 <h2 className="mb-2"><strong>Email:</strong> marrizzsalau7@gmail.com</h2>
                 <h2 className="mb-2"><strong>Location:</strong> Ogun state, Nigeria</h2>
-                <button onClick={() => window.open('/Tech CV(1).pdf', '_blank')} className="px-3 py-2 mt-5 text-xl bg-yellow-500 text-white font-semibold rounded-full border border-yellow-900 hover:text-white hover:bg-yellow-700 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2">
+                <button onClick={() => window.open('/Tech CV(4).pdf', '_blank')} className="px-3 py-2 mt-5 text-xl bg-yellow-500 text-white font-semibold rounded-full border border-yellow-900 hover:text-white hover:bg-yellow-700 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2">
                   Download CV
                 </button>
               </div>

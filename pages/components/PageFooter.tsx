@@ -8,7 +8,7 @@ const PageFooter = () => {
        
       </h1>
 
-      <div className="flex space-x-4">
+      <div className="flex space-x-4 text-gray-400">
         <a href="https://x.com/O_seun_" target="_blank" rel="noopener noreferrer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
